@@ -16,8 +16,6 @@ RUN /usr/local/bin/plugins.sh /usr/share/jenkins/plugins.txt
 
 USER root
 COPY Computerdatabase/ /var/jenkins_home/jobs/Computerdatabase/
-COPY glazer-deploy.sh /var/glazer-deploy.sh
-
 
 ENV DOCKER_HOST tcp://docker:2375
 
